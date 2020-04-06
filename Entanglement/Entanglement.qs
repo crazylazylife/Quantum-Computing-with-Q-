@@ -30,13 +30,5 @@
         // Finally we return the results of the measurement.
         return (qone_state, qtwo_state);
     }
-}namespace Quantum.Entanglement {
-
-    open Microsoft.Quantum.Canon;
-    open Microsoft.Quantum.Intrinsic;
-
-    
-    operation HelloQ () : Unit {
-        Message("Hello quantum world!");
-    }
 }
+
